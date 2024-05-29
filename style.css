@@ -1,0 +1,27 @@
+*{
+   padding: 0px;
+   margin: 0px;
+   box-sizing: border-box;
+}
+body{
+    background-image:  url("classsroom.jpg");
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.box{
+    background-color: #fff;
+    width: 40%;
+    height: 45%;
+    z-index: 99999;
+    border-radius: 10px;
+    padding: 20px;
+}
